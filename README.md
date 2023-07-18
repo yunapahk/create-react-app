@@ -1,11 +1,13 @@
 ## React Mini-Portfolio
 This exercise is for getting used to creating/working with React components 
 
+## Screenshots
+
 ## Step One - Setup
 
-- In your unit 1 day 1 folder create a new react project `npx create-react-app day-1-homework`
-- cd into the new day-1-homework folder
-- run npm start so you see the starter React page (spinning logo)
+- Create a new react project `npx create-react-app yourfoldername`
+- cd into the new folder
+- run npm start (you should see the React spinning logo)
 
 ## Step Two - Create our components
 
@@ -54,7 +56,7 @@ Create a basic horizontal navigation bar using your existing CSS Knowledge, it s
 - This should just show the Projects component, import Projects and put it in the JSX for the main component.
 
 ```js
-import Projects from "./projects.js
+import Projects from './projects'
 
 // the component function
 const Main = (props) => {
@@ -67,7 +69,7 @@ const Main = (props) => {
 export default Main
 ```
 
-You should now see the text from the projects component on the scree. Use React dev tools to confirm the component structure looks like so:
+You should now see the text from the projects component on the screen. Use React dev tools to confirm the component structure looks like so:
 
 ```
 App
@@ -76,35 +78,32 @@ App
 --------Projects
 ----Footer
 ```
-
+*optional: Download React Developer from Chrome extensions for better readability in your dev tools
 
 ## Projects.js
 
-Make it display the basic info for your unit 1 and 2 projects (name, github link, link to deployed site).
+Make it display the basic info of projects (name, github link, link to deployed site).
 
-Optionally also show a screenshot for the app.
+Style it.
 
-Style it and do your best to make it aesthetic.
+Set up a card style layout. 
 
-Setting up a card style layout for your project makes a lot of sense, here is a video of [CSS Guru, Kevin Powell, with some tips on building responsive cards](https://www.youtube.com/watch?v=51DbAwcmqD8)
+Resources:
+[CSS Guru, Kevin Powell, with some tips on building responsive cards](https://www.youtube.com/watch?v=51DbAwcmqD8)
 
 ## Footer
 
-The footer design can be what you want. Although if you want to know what a footer typically looks like [refer to this image from behance.](https://www.behance.net/gallery/129545589/website-footer-customize-with-elementor-pro?tracking_source=search_projects_recommended%7Cweb%20footer)
+Footer resources: [refer to this image from behance.](https://www.behance.net/gallery/129545589/website-footer-customize-with-elementor-pro?tracking_source=search_projects_recommended%7Cweb%20footer)
 
-Achieving this usually involves some basic usage of flexbox, so not a bad time for a refresher on [Flexbox, here is another video from Kevin Powell on Flexbox](https://www.youtube.com/watch?v=vQAvjof1oe4&t=438s).
+Flexbox resources: [Flexbox, here is another video from Kevin Powell on Flexbox](https://www.youtube.com/watch?v=vQAvjof1oe4&t=438s).
 
 ## Extra Practice
 
-- make a project component that handles displaying one project, and learn about [React props](https://www.youtube.com/watch?v=fVjb18ms7vI) to find out how to use it to display both your projects.
+- Make a project component that handles displaying one project, and learn about [React props](https://www.youtube.com/watch?v=fVjb18ms7vI) to find out how to use it to display both your projects.
 
 - Look up Styled Components, Emotion or JSS and see how you can use them for styling in your app.
 
 - Try using Grid to style all the components into a perfect responsive layout
-
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
