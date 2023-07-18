@@ -72,6 +72,7 @@ body {
 }
 /* End of navbar styles */
 
+
 /* Footer styles */
 .footer-container {
   position: fixed;
@@ -88,6 +89,17 @@ body {
   font-weight: bold;
 }
 /* End of Footer styles */
+
+
+/* Github button styling */
+.github-button {
+  margin-top: 10rem;
+  font-size: 8rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+/* End of Github button styling */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
